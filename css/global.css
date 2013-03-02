@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+
+/* CSS Document */
+
+
+body
+{
+
+width:auto;
+height:auto;
+
+}/*white background*/
+#gradient{
+background-color:#FFFFFF;
+width:auto;
+}
+/*blue gradient colors*/
+#gradient1 {
+height: 80px;
+width:auto;
+/* For WebKit (Safari, Google Chrome etc) */
+background: -webkit-gradient(linear, left top, left bottom, from(#cef1f4), to(#fff));
+/* For Mozilla/Gecko (Firefox etc) */background: -moz-linear-gradient(top, #cef1f4, #fff);
+/* For Internet Explorer 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#cef1f4, endColorstr=#FFFFFFFF);
+/* For Internet Explorer 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#cef1f4, endColorstr=#FFFFFFFF)";
+} 
+/* grey gradient colors*/
+#gradient2 {
+height: 50px;
+width:auto;
+/* For WebKit (Safari, Google Chrome etc) */
+background: -webkit-gradient(linear, left top, left bottom, from(#e7e7e7), to(#fff));
+/* For Mozilla/Gecko (Firefox etc) */background: -moz-linear-gradient(top, #e7e7e7, #fff);
+/* For Internet Explorer 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#e7e7e74, endColorstr=#FFFFFFFF);
+/* For Internet Explorer 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#e7e7e7, endColorstr=#FFFFFFFF)";
+} 
+/*popup image*/
+
+span.dropt {border-bottom: thin;}
+span.dropt:hover {text-decoration: none; background: #ffffff; z-index: 6; }
+span.dropt span {position: absolute; left: -9999px;
+  margin: 20px 0 0 0px; padding: 3px 3px 3px 3px;
+  border-style:solid; border-color:black; border-width:1px; z-index: 6;}
+span.dropt:hover span {left: 2%; background: #ffffff;} 
+span.dropt span {position: absolute; left: -9999px;
+  margin: 4px 0 0 0px; padding: 3px 3px 3px 3px; 
+  border-style:solid; border-color:black; border-width:1px;}
+span.dropt:hover span {margin: 20px 0 0 170px; background: #ffffff; z-index:6;}
+/* frame width fixed*/
+
+.wrapper {
+	width:980px;
+	height: auto;
+	padding:0;
+	margin:0 auto;
+}
+
+
+
+h1 {float:left;padding:0px 0 0 36px}
+
+h3{ font-family:Melior; font-size:32px; color:#000000; font-style:inherit}
+h4{font-family:Melior; font-size:22px; color:#000000; font-style:inherit; margin-bottom:0px;}
+h5{font-family:Melior; font-size:18px; color:#000000; margin:5px; padding:5px;}
+h2{font-family:Melior; font-size:24px; color:#000000; font-style:inherit; margin-bottom:0px;}
+h6{ font-family:Melior; font-size:26px; color:#000000;  font-style:inherit; margin-bottom:0px;}
+
+td{width:350px; height:80px; border-color:#FFFFFF; border-bottom:inset; text-align:center; font-family:Melior;}
+
+
+p {font-family:calibri; font-size:12px; color:#000000;}
+
+/*header part with navigation and menu*/
+header {height:120px;padding-top:25px;width:950px;overflow:hidden; background-color:#FFFFFF;}
+
+#logo {background:url(../images/logo.jpg) 0 0 no-repeat;width:288px;height:58px; float:left; margin-top:30px;}
+
+#top_nav {float:right;padding:0px 0px 0px 0px; margin-top:-5px;}
+#top_nav li {float:left;padding:10px; background:url(../images/line2.jpg) right no-repeat; list-style:none; margin-right:15px; margin-top:-6px; text-decoration:none; color:#000000; font-family:calibre; font-size:12px;}
+#top_nav li a {display:block;line-height:0px; text-decoration:none;  color:#000000;}
+#top_nav li a:hover, #top_nav .active a {text-decoration:none; color:#66b4bd;}
+#top_nav .end {background:none;padding-right:0;margin-right:0}
+
+#menu {width:650px;float:right;padding:0px 0px 0px 0px;}
+#menu li {float:left; list-style:none; margin:0px; display:inline; border:none; outline-style:none; padding-left:8px; text-decoration:none; color:#000000; font-family:Melior;}
+#menu li a {font-size:18px;color:#000000;line-height:10px;padding:0px 5px;height:10px;letter-spacing:-1px; font:bold; display:inline; text-decoration:none;}
+#menu li a:hover,#menu .active a {text-decoration:none; color:#66b4bd;}
+
+span{color:#66b4bd;}
+
+/*footer section*/
+.footerimg{
+padding-left:340px;
+margin-top:20px;
+}
+
+#footer {
+width:980px; height:160px; margin-top:-90px;}
+#footer li {float:left; padding:10px; padding-left:5px; background:url(../images/line.jpg) right 0 no-repeat; list-style:none; margin-top:10px; font-size:14px; font-family:calibre;}
+#footer li a {display:block;line-height:0px; text-decoration:none; color:#000000;}
+#footer li a:hover, #footer .active a {text-decoration:none; color:#66b4bd;}
+#footer .end {background:none;padding-right:0;margin-right:0}
+

@@ -1,71 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-body
-{
-
-width:auto;
-height:auto;
-
-}
-#gradient{
-background-color:#FFFFFF;
-width:auto;
-}
-
-#gradient1 {
-height: 80px;
-width:auto;
-/* For WebKit (Safari, Google Chrome etc) */
-background: -webkit-gradient(linear, left top, left bottom, from(#cef1f4), to(#fff));
-/* For Mozilla/Gecko (Firefox etc) */background: -moz-linear-gradient(top, #cef1f4, #fff);
-/* For Internet Explorer 5.5 - 7 */
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#cef1f4, endColorstr=#FFFFFFFF);
-/* For Internet Explorer 8 */
--ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#cef1f4, endColorstr=#FFFFFFFF)";
-} 
-
-#gradient2 {
-height: 50px;
-width:auto;
-/* For WebKit (Safari, Google Chrome etc) */
-background: -webkit-gradient(linear, left top, left bottom, from(#e7e7e7), to(#fff));
-/* For Mozilla/Gecko (Firefox etc) */background: -moz-linear-gradient(top, #e7e7e7, #fff);
-/* For Internet Explorer 5.5 - 7 */
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#e7e7e74, endColorstr=#FFFFFFFF);
-/* For Internet Explorer 8 */
--ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#e7e7e7, endColorstr=#FFFFFFFF)";
-} 
-
-.wrapper {
-	width:980px;
-	height: auto;
-	padding:0;
-	margin:0 auto;
-}
-h1 {float:left;padding:0px 0 0 36px}
-h2{ font-family:Melior; font-size:22px; color:#66b4bd; font-style:normal;}
-h3{ font-family:melior; font-size:34px; color:#000000; font-style:normal;}
-h4{font-family:melior; font-size:22px; color:#000000; font-style:normal;}
-
-
-p {font-family:calibri; font-size:14px; color:#000000;}
-
-
-header {height:120px;padding-top:25px;width:950px;overflow:hidden;}
-
-#logo {background:url(file:///E|/revathi/alwaysmed/images/logo.jpg) 0 0 no-repeat;width:288px;height:58px; float:left; margin-top:30px;}
-
-#top_nav {float:right;padding:1px 0px 0px 0px; margin-top:-5px;}
-#top_nav li {float:left;padding:10px; background:url(file:///E|/revathi/alwaysmed/images/line2.jpg) right no-repeat; list-style:none; margin-right:20px; margin-top:-6px; text-decoration:none; color:#000000; font-family:calibre; font-size:12px;}
-#top_nav li a {display:block;line-height:0px; text-decoration:none; color:#000000;}
-#top_nav .end {background:none;padding-right:0;margin-right:0}
-
-#menu {width:650px;float:right;padding:0px 3px 5px 5px;}
-#menu li {float:left; list-style:none; margin:0px; display:inline; border:none; outline-style:none; padding-left:13px; text-decoration:none; color:#000000; font-family:melior;}
-#menu li a {font-size:18px;color:#000000;line-height:10px;padding:0px 5px;height:10px;letter-spacing:-1px; font:bold; display:inline; text-decoration:none;}
-#menu li a:hover, #menu .active a {text-decoration:none; color:#66b4bd;}
-
-span{color:#66b4bd;}
+/*image content in home page*/
 
 .wrap1 {
 width:980px; height:270px;}
@@ -87,6 +22,7 @@ margin-left:280px;
 margin-top:-40px;
 
 }
+/*body content three section*/
 
 .wrap2 {
 width:980px; height:500px;}
@@ -105,7 +41,7 @@ float: left;
 }
 #wrap2content1 li{
 margin-left:-10px;
-list-style:url(file:///E|/revathi/alwaysmed/images/arrow.jpg);
+list-style:url(../images/arrow.jpg) inside;
 padding:5px;
 padding:10px;
 }
@@ -123,7 +59,7 @@ float: left;
 
 #wrap2content2 ul li
 {
-background:url(file:///E|/revathi/alwaysmed/images/line1.jpg) bottom repeat-x;
+background:url(../images/line1.jpg) bottom repeat-x;
 width:250px;
 text-decoration:none;
 list-style:none;
@@ -162,18 +98,263 @@ color:#70b9c1;
 font-family:calibre;
 
 }
-.footerimg{
-padding-left:340px;
+
+
+.workcontent{
+float:left;
+width:320px;
+margin-left:280px;
+}
+.workimage{
+float:right;
+width:390px;
 margin-top:20px;
+margin-left:-20px;
+}
+/*how it works content*/
+/*how it works image content*/
+#workcontent1{
+float: left;
+	width: 245px;
+	position: relative;	
+	font-family:calibre;
+	padding:5px;
+	margin-top:-40px;
+	
+	}
+	
+#workcontent2
+{
+float: left;
+	width: 410px;
+	position:relative;	
+	font-family:calibre;
+	
+	
+}
+
+#workcontent2 ul li
+{
+background:url(../images/line1.jpg) bottom repeat-x;
+margin-top:-80px;
+	
+width:380px;
+text-decoration:none;
+list-style:none;
+float:left;
+padding:10px;
+padding-bottom:-10px;
+
+}
+
+#workcontent3
+{
+float:left;
+	width: 600px;
+	position:relative;
+	
+	
+}
+
+#workcontent3 ul li
+{
+list-style:disc;
+font-family:calibre;
+margin-left:270px;
+
 }
 
 
+/*pricing page*/
+.priceimage{
+float:right;
+width:320px;
+margin-top:30px;
+margin-right:70px;
+}
+.pricecontent{
+float:left;
+width:310px;
+margin-left:280px;
+}
+/*price table*/
+.table1{
+width:620px;
+margin-top:-10px;
+}
+.table2
+{
+width:180px;
+float:right;
+margin-top:-755px;
+margin-left:-10px;
+}
 
-#footer {
-width:980px; height:160px; margin-top:-90px;}
-#footer li {float:left; padding:10px; padding-left:5px; background:url(file:///E|/revathi/alwaysmed/images/line.jpg) right 0 no-repeat; list-style:none; margin-top:10px; font-size:14px; font-family:calibre;}
-#footer li a {display:block;line-height:0px; text-decoration:none; color:#000000;}
-#footer .end {background:none;padding-right:0;margin-right:0}
+/*why us page*/
+#whyuslink{
+float:left;
+width:160px;
+margin-left:-25px;
+
+}
+#whyuslink ul li 
+{
+background:url(../images/line1.jpg) bottom no-repeat;
+	
+width:140px;
+text-decoration:none;
+list-style:none;
+float:left;
+padding:10px;
+padding-left:20px;
+}
+#whyuslink li a{text-decoration:none; list-style:none; color:#000000;}
+#whyuslink li a:hover, #whyuslink .active a {text-decoration:none; color:#66b4bd;}
+
+
+
+
+.whyuscontent{
+float:left;
+width:350px;
+margin-left:150px;
+}
+.whyusimage{
+float:left;
+width:300px;
+margin-left:-50px;
+margin-top:10px;
+
+
+}
+
+
+#whyuscontent2
+{
+float: left;
+	width: 380px;
+	position:relative;	
+	font-family:calibre;
+	margin-left:5px;
+	margin-top:-20px;
+	
+	
+}
+#whyuscontent2 ul li
+{
+list-style-type:none;
+	
+}
+#whyusbody3{
+width:200px;
+font-family:Melior;
+font-style:italic;
+line-height:40px;
+
+position:relative;
+float:right;
+margin-right:50px;
+
+}
+
+/*whatyouget page css*/
+
+
+#whatcontent2
+{
+float: left;
+	width: 350px;
+	position: relative;		
+	
+	
+	font-family:calibre;
+	margin-top:-40px;
+	padding-left:30px;
+
+}
+
+#whatcontent2 ul li
+{
+background:url(../images/line1.jpg) bottom repeat-x;
+width:340px;
+text-decoration:none;
+list-style:none;
+float:left;
+margin-left:-40px;
+font-family:calibre;
+
+color:#3b3b3b;
+font-size:16px;
+padding:10px;
+}
+
+/*Hipaam page Css*/
+
+.hipaacontent{
+float:left;
+width:250px;
+margin-left:150px;
+}
+.hipaaimage{
+float:left;
+width:300px;
+margin-top:10px;
+}
+
+
+#hipaacontent2
+{
+float:left;
+	width: 380px;
+	position:relative;
+	margin-top:-70px;
+	margin-left:40px;
+	
+	
+}
+
+#hipaacontent2 ul li
+{
+list-style-image:url(../images/listdot.png);
+list-style-position:inside;
+width: 380px;
+font-family:calibre;
+margin-left:-35px;
+background:#e9f5ec;
+padding:5px;
+
+
+}
+
+/*how we help page css*/
+
+
+#helpcontent2
+{
+float:left;
+	width: 340px;
+	position:relative;
+	margin-top:-20px;
+	margin-left:40px;
+	
+	
+}
+
+#helpcontent2 ul li
+{
+list-style-image:url(../images/listdot.png);
+list-style-position:inside;
+text-decoration:underline;
+color:#66b4bd;
+width: 340px;
+font-family:calibre;
+margin-left:-45px;
+padding:5px;
+
+
+}
+
+
 
 
 
